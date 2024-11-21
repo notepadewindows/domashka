@@ -1,12 +1,11 @@
-class u:
-    hp = 100
-    atak= 5
-    monney = 0
-    armor = 5
-class enemy (u) :
-    hp = 20
-enemy = enemy()
-print(enemy.atak)
-print(enemy.hp)
-print(enemy.monney)
-print(enemy.armor)
+import time
+def tim ():
+    start = input("старт S")
+    if start == "S":
+        timestart = time.time()
+        end = input("кінець E")
+        if end == "E":
+            timeend = time.time()
+            timee = round(timeend - timestart)
+            print("функція працювала",timee,"секунд")
+tim()
