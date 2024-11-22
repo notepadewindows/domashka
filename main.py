@@ -1,9 +1,16 @@
-class gen:
-   def __init__(self, data):
-       self.data = data
-   def __iter__(self):
-       for item in self.data:
-           yield item
-iter = gen([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-for item in iter:
-   print(item)
+result = []
+def divider(a, b):
+   if a < b:
+       raise ValueError
+   if b > 100:
+       raise IndexError
+   return a/b
+data = {10: 2, 2: 5, "123": 4, 18: 0, 8 : 4}
+for key in data:
+   try:
+       res = divider(key, data[key])
+       result.append(res)
+   except Exception as err:
+       print(type(err))
+print(result)
+# правильно?
