@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd5ef041-c5d6-4c9c-81c5-8338c41eff11" name="Changes" comment=" дз 7">
+    <list default="true" id="dd5ef041-c5d6-4c9c-81c5-8338c41eff11" name="Changes" comment=" дз 6&#10; правильно?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <workItem from="1731691619021" duration="2565000" />
       <workItem from="1731756112368" duration="1070000" />
       <workItem from="1732216973328" duration="2544000" />
-      <workItem from="1732271343478" duration="1885000" />
+      <workItem from="1732271343478" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="добрий день">
       <option name="closed" value="true" />
@@ -146,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732272188256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" дз 6&#10; правильно?">
+      <option name="closed" value="true" />
+      <created>1732273322348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732273322348</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,9 +178,10 @@
     <MESSAGE value="зв'язані класи дз 3" />
     <MESSAGE value=" дз 8" />
     <MESSAGE value=" дз 7" />
-    <option name="LAST_COMMIT_MESSAGE" value=" дз 7" />
+    <MESSAGE value=" дз 6&#10; правильно?" />
+    <option name="LAST_COMMIT_MESSAGE" value=" дз 6&#10; правильно?" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1732273119874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1732274446958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

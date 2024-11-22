@@ -1,16 +1,14 @@
-result = []
-def divider(a, b):
-   if a < b:
-       raise ValueError
-   if b > 100:
-       raise IndexError
-   return a/b
-data = {10: 2, 2: 5, "123": 4, 18: 0, 8 : 4}
-for key in data:
-   try:
-       res = divider(key, data[key])
-       result.append(res)
-   except Exception as err:
-       print(type(err))
-print(result)
-# правильно?
+class valluta():
+    def __init__(self):
+        self.USD = 41.48
+        self.Euro =43.43
+while True:
+    def konw():
+        val = valluta()
+        vudir = input("виберіть валюту доллар - U євро - E ")
+        grn = int( input("введіть суму "))
+        if vudir == "U":
+            print("приблизно",round( grn / val.USD), "USD")
+        if vudir == "E":
+            print("приблизно",round( grn / val.Euro), "євро")
+    konw()
